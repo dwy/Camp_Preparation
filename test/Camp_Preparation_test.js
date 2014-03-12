@@ -24,18 +24,15 @@ var camp = require('../lib/Camp_Preparation.js');
 
 exports['awesome'] = {
   setUp: function(done) {
-    // setup here
     done();
   },
   'no args': function(test) {
     test.expect(1);
-    // tests here
     test.equal(camp.awesome(), 'awesome', 'should be awesome.');
     test.done();
   },
   'version': function(test) {
     test.expect(1);
-    // tests here
     test.equal("0.0.0.0.1", camp.VERSION);
     test.done();
   }
