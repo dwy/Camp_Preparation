@@ -1,6 +1,6 @@
 'use strict';
 
-var Camp_Preparation = require('../lib/Camp_Preparation.js');
+var camp = require('../lib/Camp_Preparation.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -30,7 +30,13 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(Camp_Preparation.awesome(), 'awesome', 'should be awesome.');
+    test.equal(camp.awesome(), 'awesome', 'should be awesome.');
     test.done();
   },
+  'version': function(test) {
+    test.expect(1);
+    // tests here
+    test.equal("0.0.0.0.1", camp.VERSION);
+    test.done();
+  }
 };
