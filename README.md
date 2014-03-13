@@ -11,8 +11,11 @@ npm install
 ```
 
 Execute the tests
-`grunt nodeunit`
+```
+grunt nodeunit
+```
 
+Usage:
 
 ```javascript
 var Camp_Preparation = require('Camp_Preparation');
