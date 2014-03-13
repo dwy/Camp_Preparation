@@ -36,6 +36,6 @@
   },
   "keywords": [],
   dependencies: {
-	"ar-drone": "~0.3.1"
+	"ar-drone": "https://github.com/node-ar-drone/tarball/master"
   }
 }
