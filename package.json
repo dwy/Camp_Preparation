@@ -35,7 +35,7 @@
     "nodeunit": "~0.8.6"
   },
   "keywords": [],
-  dependencies: {
+  "dependencies": {
 	"ar-drone": "https://github.com/node-ar-drone/tarball/master"
   }
 }
