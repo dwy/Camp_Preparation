@@ -3,7 +3,14 @@
 The best project ever.
 
 ## Getting Started
-Install the module with: `npm install Camp_Preparation`
+Install the module with: 
+`npm install https://github.com/dwy/Camp_Preparation/tarball/master`
+`cd node_modules/Camp_Preparation`
+`npm install`
+
+Execute the tests
+`grunt nodeunit`
+
 
 ```javascript
 var Camp_Preparation = require('Camp_Preparation');
