@@ -34,5 +34,8 @@
     "grunt": "~0.4.3",
     "nodeunit": "~0.8.6"
   },
-  "keywords": []
+  "keywords": [],
+  dependencies: {
+	"ar-drone": "~0.3.1"
+  }
 }
