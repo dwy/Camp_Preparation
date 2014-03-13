@@ -36,6 +36,6 @@
   },
   "keywords": [],
   "dependencies": {
-	"ar-drone": "https://github.com/node-ar-drone/tarball/master"
+	"ar-drone": "https://github.com/ar-drone/tarball/master"
   }
 }
