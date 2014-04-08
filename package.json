@@ -28,14 +28,14 @@
     "test": "grunt nodeunit"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.5",
+    "grunt-contrib-nodeunit": "~0.2.2",
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.3",
     "nodeunit": "~0.8.6"
   },
   "keywords": [],
   "dependencies": {
-	"ar-drone": "https://github.com/felixge/node-ar-drone/tarball/master"
+    "ar-drone": "https://github.com/felixge/node-ar-drone/tarball/master"
   }
 }
