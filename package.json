@@ -36,6 +36,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "ar-drone": "https://github.com/felixge/node-ar-drone/tarball/master"
+    "ar-drone": "https://github.com/felixge/node-ar-drone/tarball/master",
+     "express": "4.2.0"
   }
 }
